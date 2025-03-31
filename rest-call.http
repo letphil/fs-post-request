@@ -1,0 +1,14 @@
+GET http://localhost:8888/ping
+
+###
+
+GET http://localhost:8888/users
+
+###
+
+POST http://localhost:8888/users HTTP/1.1
+content-type: application/json
+
+{
+  "user": "TESTUSER"
+}
